@@ -8,5 +8,10 @@ pipeline {
           sh 'node --version'
         }
       }
+     stage('print') {
+       steps {
+          sh 'echo "node is installed"'
+          }
+        }
    }
 }
