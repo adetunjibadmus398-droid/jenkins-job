@@ -6,11 +6,11 @@ pipeline {
       stage('Test') {
         steps {
           sh 'node --version'
-        stage('print') {
-          steps {
-            sh 'echo "node is installed"'
-          }
         }
+   stage('print') {
+      steps {
+          sh 'echo "node is installed"'
+          }
         }
       }
    }
