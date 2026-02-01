@@ -10,7 +10,7 @@ pipeline {
       }
    stage('command') {
        steps {
-          sh 'echo "node name is $HOSTNAME'
+          sh 'echo "Hello Jenkins'
           }
         }
      stage('print') {
