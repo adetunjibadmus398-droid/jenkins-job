@@ -8,7 +8,7 @@ pipeline {
           sh 'node --version'
         }
       }
-   stage('print') {
+   stage('command') {
        steps {
           sh 'echo "node name is $HOSTNAME'
           }
