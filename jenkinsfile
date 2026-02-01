@@ -8,6 +8,11 @@ pipeline {
           sh 'node --version'
         }
       }
+   stage('print') {
+       steps {
+          sh 'echo "node name is $HOSTNAME'
+          }
+        }
      stage('print') {
        steps {
           sh 'echo "node is installed"'
