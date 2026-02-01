@@ -10,7 +10,7 @@ pipeline {
       }
    stage('command') {
        steps {
-          sh 'echo "Hello Jenkins from Stranger things'
+          sh 'node hostname'
           }
         }
      stage('print') {
